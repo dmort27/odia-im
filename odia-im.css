@@ -1,6 +1,12 @@
-body, textarea {
+textarea {
+  font-size: 24pt;
+  width: 1000px;
+  height: 100px;
+}
+
+body {
   font-family: "DejaVu Sans";
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 input {
