@@ -221,7 +221,7 @@ $(document).ready(function() {
           },
           {
             orth: 'ଵ',
-            phon: 'ɔɔ'
+            phon: 'vɔ'
           },
           {
             orth: 'ଶ',
@@ -274,7 +274,9 @@ $(document).ready(function() {
             lastKey.append("<span class='key'>&nbsp;" + key.phon + "&nbsp;<input type='button' value='" + key.orth + "'></span>");
             var lastButton = $('#keys div input').last();
             lastButton.click(function () {
-              $('textarea').append(key.orth);
+              console.log('Pressed ' + key.orth + '=' + key.phon);
+              var box = $("#text");
+              box.val(box.val() + key.orth);
             });
           });
         });

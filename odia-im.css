@@ -1,6 +1,12 @@
-body, textarea, input {
+body, textarea {
   font-family: "DejaVu Sans";
-  font-size: 15pt;
+  font-size: 12pt;
+}
+
+input {
+  /* font-family: 'Baloo Bhaina', sans-serif; */
+  font-size: 20pt;
+  width: 55px;
 }
 
 div.row {
@@ -11,5 +17,5 @@ div.row {
 
 span.key {
   float: left;
-  width: 50px;
+  width: 60px;
 }
