@@ -1,0 +1,15 @@
+body, textarea, input {
+  font-family: "DejaVu Sans";
+  font-size: 15pt;
+}
+
+div.row {
+  clear: left;
+  margin: 5px;
+  padding: 5px;
+}
+
+span.key {
+  float: left;
+  width: 50px;
+}
